@@ -1,8 +1,8 @@
 import inventoryImage from "@/assets/blog/inventory-systems.jpg";
-import cashFlowImage from "@/assets/blog/cash-flow.jpg";
-import customerImage from "@/assets/blog/customer-records.jpg";
-import teamImage from "@/assets/blog/team-accountability.jpg";
-import offlineImage from "@/assets/blog/offline-operations.jpg";
+import cashFlowImage from "@/assets/blog/cash-flow-global.jpg";
+import customerImage from "@/assets/blog/customer-records-global.jpg";
+import teamImage from "@/assets/blog/team-accountability-global.jpg";
+import offlineImage from "@/assets/blog/offline-operations-global.jpg";
 
 export type ArticleCategory = "Inventory" | "Finance" | "Customers" | "Team" | "Operations";
 export type ArticleBlock =
@@ -67,7 +67,7 @@ export const articles: ResourceArticle[] = [
     published: "September 22, 2026",
     updated: "September 22, 2026",
     image: cashFlowImage,
-    imageAlt: "Business owner reconciling a cash drawer with receipts and a laptop",
+    imageAlt: "East Asian business owner reconciling a cash drawer with receipts and a laptop",
     intro: "A busy day can feel successful while cash remains tight. That happens because sales, profit, and available cash are related but different. Some sales are unpaid, some cash pays for stock, and some expenses happen before revenue arrives. Cash-flow management gives each movement a name and a date so an owner can explain the money available today.",
     blocks: [
       { type: "heading", text: "Understand the four numbers that are often mixed together" },
@@ -99,7 +99,7 @@ export const articles: ResourceArticle[] = [
     published: "September 22, 2026",
     updated: "September 22, 2026",
     image: customerImage,
-    imageAlt: "Shopkeeper helping a returning customer while using a tablet",
+    imageAlt: "Latino shopkeeper helping a returning customer while using a tablet",
     intro: "A customer list becomes valuable when it helps the business serve people consistently. Names and phone numbers alone are not a customer relationship system. Useful records connect a person or organization to purchases, payments, preferences, and agreed follow-ups while collecting only information the business genuinely needs.",
     blocks: [
       { type: "heading", text: "Create one dependable record for each customer" },
@@ -132,7 +132,7 @@ export const articles: ResourceArticle[] = [
     published: "September 22, 2026",
     updated: "September 22, 2026",
     image: teamImage,
-    imageAlt: "Small business team reviewing daily operations together",
+    imageAlt: "Diverse small business team reviewing daily operations together",
     intro: "Accountability works when people know what they are responsible for, can record their work quickly, and receive fair follow-up. It should not mean watching every movement or creating paperwork that competes with customers. A strong system connects permissions, transaction records, daily review, and respectful management.",
     blocks: [
       { type: "heading", text: "Define responsibility before measuring performance" },
@@ -165,7 +165,7 @@ export const articles: ResourceArticle[] = [
     published: "September 22, 2026",
     updated: "September 22, 2026",
     image: offlineImage,
-    imageAlt: "Market trader recording a transaction on a phone",
+    imageAlt: "South Asian market trader recording a transaction on a phone",
     intro: "An unreliable connection should not force a business back to memory and loose paper. Offline-first work allows essential records to be captured on the device and synchronized when connectivity returns. It is not the same as pretending the internet never matters: teams still need clear status signals, safe devices, and a routine for confirming that queued work reached the shared account.",
     blocks: [
       { type: "heading", text: "Decide what must continue offline" },
@@ -187,42 +187,6 @@ export const articles: ResourceArticle[] = [
       { type: "heading", text: "Practice recovery before it is urgent" },
       { type: "paragraph", text: "Test the workflow deliberately: disconnect one device, record a small sample transaction, reconnect, and confirm the shared result. Teach workers what each status looks like and who to contact if it does not clear. Repeat the test after major app or device changes. A short practice reveals misunderstandings without putting a real day’s records at risk." },
       { type: "paragraph", text: "BizTrack is designed to queue supported business records locally and synchronize them when connectivity returns. Use that capability with disciplined routines: capture complete information, watch pending status, avoid duplicate entry, reconnect regularly, and verify important totals. Offline-first operation is most powerful when the team understands both what the device has saved and what the wider business can already see." }
-    ]
-  },
-  {
-    slug: "daily-business-record-keeping-routine",
-    title: "A 15-Minute Daily Record-Keeping Routine for Better Business Decisions",
-    description: "Use a simple opening, transaction, and closing routine to keep stock, customer balances, expenses, and cash records dependable every day.",
-    category: "Operations",
-    readTime: "9 min read",
-    published: "September 22, 2026",
-    updated: "September 22, 2026",
-    image: cashFlowImage,
-    imageAlt: "Business owner reviewing receipts and daily financial records",
-    intro: "Business records become useful through consistency, not complexity. A short routine at opening, during each transaction, and at closing can produce better information than a long report assembled from memory at month-end. The routine below is designed for a shop, service business, small factory, or rental operation where the owner needs clear daily answers without stopping normal work.",
-    blocks: [
-      { type: "heading", text: "Open the day with a known starting point" },
-      { type: "paragraph", text: "Begin by confirming who is working, which payment channels are active, and how much opening cash is in the drawer. Check urgent customer orders, bookings, unpaid balances due for follow-up, and low-stock alerts. This opening review should be brief. Its purpose is to identify exceptions that could disrupt the day, not to analyse every historical figure." },
-      { type: "paragraph", text: "If the previous day has an unresolved cash or stock difference, assign someone to investigate it rather than allowing it to blend into today. Carrying unexplained balances forward makes each later reconciliation less reliable. Note the issue, protect the supporting records, and begin the new day from an agreed amount." },
-      { type: "heading", text: "Capture each business event once" },
-      { type: "paragraph", text: "Record a sale when the customer receives the product or service. Select an existing customer when appropriate, confirm items and quantities, state the payment method, and mark any unpaid balance. For services that consume stock, include the parts or materials used so inventory does not remain artificially high. Provide the receipt and correct mistakes through a visible adjustment process." },
-      { type: "paragraph", text: "Record purchases when stock is received, not only when the supplier is paid. Record expenses when they occur and classify them clearly. Log waste, damage, returns, owner withdrawals, and stock used internally. Each of these events changes the business even when it does not look like a customer sale." },
-      { type: "list", items: ["Search before creating a new item or customer.", "Record the payment amount and method accurately.", "Add a short reason for discounts, cancellations, waste, and adjustments.", "Keep supplier purchases separate from operating expenses.", "Resolve obvious entry errors while the source document and people are available."] },
-      { type: "heading", text: "Use names and references that can be found later" },
-      { type: "paragraph", text: "A record is only useful if someone can retrieve it. Use consistent customer and item names, preserve phone country codes, add category and quality details where they distinguish products, and connect orders to the correct supplier or buyer. Receipt and transaction references should remain unique. Avoid vague descriptions such as “things,” “balance,” or “shop expense” when a few extra words can explain the event." },
-      { type: "paragraph", text: "Images can improve identification for stock, damage, deliveries, or disputes. Use a clear photograph that shows the relevant object and keep written details alongside it. A photo cannot reliably show quantity, price, payment status, or responsibility by itself." },
-      { type: "heading", text: "Review exceptions during a quiet moment" },
-      { type: "paragraph", text: "Do not wait until closing to discover every problem. During a quiet period, review pending orders, partially paid sales, unusual stock movements, and records waiting to synchronize. Confirm that newly received stock is available and that important customer details are correct. This small mid-day check prevents one error from affecting several later transactions." },
-      { type: "paragraph", text: "Owners and administrators should focus on exceptions rather than interfering with every normal action. A large discount, deleted record, unusual quantity, overdue order, or repeated failed synchronization deserves attention. Routine transactions can remain in the history for later reporting." },
-      { type: "heading", text: "Close by explaining cash and obligations" },
-      { type: "paragraph", text: "At closing, complete any delayed records and count each payment channel. Compare physical cash with the expected drawer amount. Review bank and mobile money collections separately. List today’s unpaid customer balances, debt repayments received, supplier obligations, and necessary payments due soon. If there is a difference, document it and begin the investigation before people leave." },
-      { type: "paragraph", text: "Check a small selection of fast-moving or high-value stock. You do not need to count the entire business every night. Rotating through categories creates regular coverage without exhausting the team. Record damage and waste before adjusting the final quantity so the reason remains visible." },
-      { type: "heading", text: "Turn daily records into weekly decisions" },
-      { type: "paragraph", text: "Once a week, look beyond totals. Which items ran out? Which stayed still? Which customers increased their unpaid balances? Which expenses repeated? Did cash collected keep pace with recorded sales? Were workers able to complete records promptly? Choose one or two actions, such as changing a reorder point, following up a debt, clarifying a unit, or reducing an avoidable expense." },
-      { type: "paragraph", text: "At month-end, compare trends and complete a broader accountability review. The daily routine makes this faster because the evidence already exists. Do not rewrite history to make the figures match expectations. Preserve corrections and explanations so future reports remain understandable." },
-      { type: "heading", text: "Keep the routine short and owned" },
-      { type: "paragraph", text: "Assign the opening check, transaction entry, and closing review to named roles. Create a backup when the usual person is absent. Keep the checklist visible until it becomes habit, and adjust it when the business adds a new payment method, location, service, or workflow. A routine that takes too long will be skipped on the busiest days—the days when it is needed most." },
-      { type: "paragraph", text: "BizTrack brings stock, sales, services, purchases, expenses, debts, receipts, worker activity, and accountability into connected records. Start with the opening balance, record each event once, and finish with a short reconciliation. The value appears over time: fewer forgotten transactions, clearer customer balances, more dependable stock, and decisions based on what the business actually did." }
     ]
   }
 ];

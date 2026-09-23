@@ -37,7 +37,7 @@ export default function ResourcesPage() {
           <div className="flex flex-wrap gap-2" aria-label={t("resourcesUi.filterAria")}>
             {["All", ...articleCategories].map((item) => (
               <Button key={item} variant={category === item ? "default" : "outline"} onClick={() => setCategory(item as ArticleCategory | "All")} className="min-h-11">
-                {item === "All" ? t("resourcesUi.all") : item}
+                {item === "All" ? t("resourcesUi.all") : t(`resourcesUi.categories.${item}`)}
               </Button>
             ))}
           </div>
@@ -48,7 +48,7 @@ export default function ResourcesPage() {
                   <img src={article.image} alt={article.imageAlt} width={1200} height={720} loading={index === 0 ? "eager" : "lazy"} className="aspect-[5/3] h-full w-full object-cover transition-transform duration-300 hover:scale-[1.02]" />
                 </Link>
                 <div className="flex flex-col p-6 md:p-8">
-                  <div className="flex flex-wrap items-center gap-3 text-sm text-muted-foreground"><span className="font-bold text-primary">{article.category}</span><span className="flex items-center gap-1"><Clock className="h-4 w-4" />{article.readTime}</span></div>
+                  <div className="flex flex-wrap items-center gap-3 text-sm text-muted-foreground"><span className="font-bold text-primary">{t(`resourcesUi.categories.${article.category}`)}</span><span className="flex items-center gap-1"><Clock className="h-4 w-4" />{article.readTime}</span></div>
                   <h2 className="mt-4 text-2xl font-bold leading-tight"><Link to={`/resources/${article.slug}`} className="hover:text-primary">{article.title}</Link></h2>
                   <p className="mt-4 flex-1 leading-7 text-muted-foreground">{article.description}</p>
                   <Link to={`/resources/${article.slug}`} className="mt-6 inline-flex min-h-11 items-center gap-2 font-semibold text-primary">{t("resourcesUi.readGuide")}<ArrowRight className="h-4 w-4" /></Link>

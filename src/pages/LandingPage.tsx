@@ -76,7 +76,7 @@ export default function LandingPage() {
           <nav className="hidden items-center gap-6 text-sm font-medium text-muted-foreground md:flex">
             <a href="#features" className="hover:text-foreground">Features</a>
             <a href="#pricing" className="hover:text-foreground">Pricing</a>
-            <a href="#resources" className="hover:text-foreground">Resources</a>
+            <Link to="/resources" className="hover:text-foreground">Resources</Link>
             <a href="#contact" className="hover:text-foreground">Contact Us</a>
           </nav>
           <Link
