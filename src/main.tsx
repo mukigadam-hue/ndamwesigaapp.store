@@ -4,6 +4,7 @@ import App from "./App.tsx";
 import "./index.css";
 import "./i18n";
 import { registerAppSW } from "./lib/registerAppSW";
+import { HelmetProvider } from "react-helmet-async";
 
 // Offline app shell: registers /sw.js only in real production (never in
 // dev, iframe, or Lovable preview; supports ?sw=off kill switch).
@@ -41,6 +42,8 @@ class ErrorBoundary extends React.Component<
 
 createRoot(document.getElementById("root")!).render(
   <ErrorBoundary>
-    <App />
+    <HelmetProvider>
+      <App />
+    </HelmetProvider>
   </ErrorBoundary>
 );

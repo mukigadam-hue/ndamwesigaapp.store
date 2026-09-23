@@ -10,6 +10,15 @@ BizTrack (also published as Business Manager and My Factory) supports three work
 - [Privacy Policy](/privacy): How user and business data is handled.
 - [Browse Listings](/browse): Public discovery of rentals and listings.
 - [Orders](/orders): B2B order placement, tracking, and disputes.
+- [Resources](/resources): Practical editorial guides for small-business inventory, finance, customers, teams, and offline operations.
+
+## Business Guides
+
+- [Inventory Management for Small Business](/resources/inventory-management-for-small-business): Organizing stock, units, cycle counts, and purchasing decisions.
+- [Small Business Cash Flow Management](/resources/small-business-cash-flow-management): Separating sales, collections, purchases, expenses, and debt repayments.
+- [Customer Records and Repeat Sales](/resources/customer-records-repeat-sales): Building useful customer histories while protecting trust.
+- [Team Accountability](/resources/team-accountability-small-business): Clear roles, daily records, fair review, and access controls.
+- [Offline Business Records](/resources/offline-business-records-guide): Safe record keeping and synchronization during unreliable connectivity.
 
 ## Optional
 
