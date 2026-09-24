@@ -1476,5 +1476,41 @@
     "recordsBody": "매일 판매와 서비스를 기록하면 실제 이익이 보입니다.",
     "recordsCta": "판매 기록",
     "exploreCta": "Discover 탐색"
+  },
+  "resourcesUi": {
+    "homeAria": "BizTrack 홈",
+    "mainNav": "주요 탐색",
+    "features": "기능",
+    "pricing": "요금",
+    "resources": "자료",
+    "contact": "문의하기",
+    "launch": "웹 앱 실행",
+    "footerDescription": "재고, 판매, 현금, 팀을 한곳에서 관리하는 실용 도구와 가이드.",
+    "allGuides": "모든 가이드",
+    "privacy": "개인정보 처리방침",
+    "androidApp": "Android 앱",
+    "rights": "모든 권리 보유.",
+    "editorial": "BizTrack 편집팀",
+    "heading": "일상 운영을 위한 가이드",
+    "intro": "재고, 현금 흐름, 고객, 팀, 오프라인 작업에 관한 실용 가이드. 기사는 영어로 게시됩니다.",
+    "filterAria": "카테고리별 필터",
+    "all": "전체",
+    "readGuide": "가이드 읽기",
+    "practiceHeading": "가이드를 실천하세요",
+    "practiceBody": "BizTrack은 재고, 판매, 지출, 팀 활동을 하나의 대시보드에 온라인·오프라인으로 기록합니다.",
+    "backToGuides": "모든 가이드로 돌아가기",
+    "byline": "BizTrack 편집팀 작성",
+    "updated": "업데이트",
+    "nextStepHeading": "내 사업에 적용해 보기",
+    "nextStepBody": "BizTrack을 열어 재고, 판매, 지출을 기록하고 일일 합계를 확인하세요.",
+    "relatedGuides": "관련 가이드",
+    "adArea": "광고",
+    "categories": {
+      "Inventory": "재고",
+      "Finance": "재무",
+      "Customers": "고객",
+      "Team": "팀",
+      "Operations": "운영"
+    }
   }
 }

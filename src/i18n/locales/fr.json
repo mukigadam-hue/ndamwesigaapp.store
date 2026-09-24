@@ -1518,5 +1518,41 @@
     "recordsBody": "Enregistrez chaque vente et service chaque jour pour connaître votre vrai bénéfice.",
     "recordsCta": "Enregistrer une vente",
     "exploreCta": "Explorer Discover"
+  },
+  "resourcesUi": {
+    "homeAria": "Accueil BizTrack",
+    "mainNav": "Navigation principale",
+    "features": "Fonctionnalités",
+    "pricing": "Tarifs",
+    "resources": "Ressources",
+    "contact": "Contactez-nous",
+    "launch": "Lancer l'application web",
+    "footerDescription": "Outils et guides pratiques pour gérer stock, ventes, trésorerie et équipes au même endroit.",
+    "allGuides": "Tous les guides",
+    "privacy": "Politique de confidentialité",
+    "androidApp": "Application Android",
+    "rights": "Tous droits réservés.",
+    "editorial": "Rédaction BizTrack",
+    "heading": "Guides pour la gestion quotidienne",
+    "intro": "Guides pratiques sur le stock, la trésorerie, les clients, les équipes et le travail hors ligne. Articles publiés en anglais.",
+    "filterAria": "Filtrer par catégorie",
+    "all": "Tous",
+    "readGuide": "Lire le guide",
+    "practiceHeading": "Mettez ces guides en pratique",
+    "practiceBody": "BizTrack vous aide à enregistrer stock, ventes, dépenses et activité d'équipe dans un seul tableau de bord, en ligne ou hors ligne.",
+    "backToGuides": "Retour aux guides",
+    "byline": "Par la rédaction BizTrack",
+    "updated": "Mis à jour",
+    "nextStepHeading": "Essayez-le dans votre entreprise",
+    "nextStepBody": "Ouvrez BizTrack pour enregistrer stock, ventes et dépenses et voir vos totaux du jour.",
+    "relatedGuides": "Guides associés",
+    "adArea": "Publicité",
+    "categories": {
+      "Inventory": "Stock",
+      "Finance": "Finances",
+      "Customers": "Clients",
+      "Team": "Équipe",
+      "Operations": "Opérations"
+    }
   }
 }
