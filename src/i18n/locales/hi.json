@@ -1476,5 +1476,41 @@
     "recordsBody": "हर बिक्री और सेवा रोज़ दर्ज करें ताकि असली मुनाफ़ा दिखे।",
     "recordsCta": "बिक्री दर्ज करें",
     "exploreCta": "Discover देखें"
+  },
+  "resourcesUi": {
+    "homeAria": "BizTrack होम",
+    "mainNav": "मुख्य नेविगेशन",
+    "features": "विशेषताएँ",
+    "pricing": "मूल्य",
+    "resources": "संसाधन",
+    "contact": "संपर्क करें",
+    "launch": "वेब ऐप खोलें",
+    "footerDescription": "स्टॉक, बिक्री, नकदी और टीम को एक जगह चलाने के व्यावहारिक टूल और गाइड।",
+    "allGuides": "सभी गाइड",
+    "privacy": "गोपनीयता नीति",
+    "androidApp": "Android ऐप",
+    "rights": "सर्वाधिकार सुरक्षित।",
+    "editorial": "BizTrack संपादकीय",
+    "heading": "रोज़मर्रा के व्यवसाय के लिए गाइड",
+    "intro": "स्टॉक, नकदी प्रवाह, ग्राहक, टीम और ऑफ़लाइन काम पर व्यावहारिक गाइड। लेख अंग्रेज़ी में प्रकाशित हैं।",
+    "filterAria": "श्रेणी के अनुसार फ़िल्टर करें",
+    "all": "सभी",
+    "readGuide": "गाइड पढ़ें",
+    "practiceHeading": "इन गाइड को अपनाएँ",
+    "practiceBody": "BizTrack स्टॉक, बिक्री, खर्च और टीम गतिविधि को एक डैशबोर्ड में दर्ज करने में मदद करता है, ऑनलाइन या ऑफ़लाइन।",
+    "backToGuides": "सभी गाइड पर वापस",
+    "byline": "BizTrack संपादकीय द्वारा",
+    "updated": "अपडेट किया गया",
+    "nextStepHeading": "अपने व्यवसाय में आज़माएँ",
+    "nextStepBody": "स्टॉक, बिक्री और खर्च दर्ज करने और दैनिक कुल देखने के लिए BizTrack खोलें।",
+    "relatedGuides": "संबंधित गाइड",
+    "adArea": "विज्ञापन",
+    "categories": {
+      "Inventory": "स्टॉक",
+      "Finance": "वित्त",
+      "Customers": "ग्राहक",
+      "Team": "टीम",
+      "Operations": "संचालन"
+    }
   }
 }

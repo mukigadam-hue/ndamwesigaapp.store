@@ -1558,5 +1558,41 @@
     "recordsBody": "Record every sale and service daily. Steady records reveal your real profit and help your business grow.",
     "recordsCta": "Record a sale",
     "exploreCta": "Explore Discover"
+  },
+  "resourcesUi": {
+    "homeAria": "BizTrack home",
+    "mainNav": "Main navigation",
+    "features": "Features",
+    "pricing": "Pricing",
+    "resources": "Resources",
+    "contact": "Contact Us",
+    "launch": "Launch Web App",
+    "footerDescription": "Practical tools and guides for running stock, sales, cash and teams in one place.",
+    "allGuides": "All guides",
+    "privacy": "Privacy Policy",
+    "androidApp": "Android App",
+    "rights": "All rights reserved.",
+    "editorial": "BizTrack Editorial",
+    "heading": "Business guides for everyday operations",
+    "intro": "Practical, plain-language guides on inventory, cash flow, customers, teams and working offline. Articles are published in English.",
+    "filterAria": "Filter guides by category",
+    "all": "All",
+    "readGuide": "Read guide",
+    "practiceHeading": "Put these guides into practice",
+    "practiceBody": "BizTrack helps you record stock, sales, expenses and team activity in one dashboard, online or offline.",
+    "backToGuides": "Back to all guides",
+    "byline": "By BizTrack Editorial",
+    "updated": "Updated",
+    "nextStepHeading": "Try it in your own business",
+    "nextStepBody": "Open BizTrack to record stock, sales and expenses and see your daily totals in one place.",
+    "relatedGuides": "Related guides",
+    "adArea": "Advertisement",
+    "categories": {
+      "Inventory": "Inventory",
+      "Finance": "Finance",
+      "Customers": "Customers",
+      "Team": "Team",
+      "Operations": "Operations"
+    }
   }
 }

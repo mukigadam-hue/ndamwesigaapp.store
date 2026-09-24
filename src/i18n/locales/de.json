@@ -1476,5 +1476,41 @@
     "recordsBody": "Erfassen Sie jeden Verkauf und Service täglich, um den echten Gewinn zu sehen.",
     "recordsCta": "Verkauf erfassen",
     "exploreCta": "Discover erkunden"
+  },
+  "resourcesUi": {
+    "homeAria": "BizTrack Startseite",
+    "mainNav": "Hauptnavigation",
+    "features": "Funktionen",
+    "pricing": "Preise",
+    "resources": "Ressourcen",
+    "contact": "Kontakt",
+    "launch": "Web-App starten",
+    "footerDescription": "Praktische Werkzeuge und Leitfäden für Lager, Verkäufe, Kasse und Teams an einem Ort.",
+    "allGuides": "Alle Leitfäden",
+    "privacy": "Datenschutz",
+    "androidApp": "Android-App",
+    "rights": "Alle Rechte vorbehalten.",
+    "editorial": "BizTrack Redaktion",
+    "heading": "Leitfäden für den Geschäftsalltag",
+    "intro": "Praktische Leitfäden zu Lager, Cashflow, Kunden, Teams und Offline-Arbeit. Artikel erscheinen auf Englisch.",
+    "filterAria": "Leitfäden nach Kategorie filtern",
+    "all": "Alle",
+    "readGuide": "Leitfaden lesen",
+    "practiceHeading": "Setzen Sie diese Leitfäden um",
+    "practiceBody": "BizTrack erfasst Lager, Verkäufe, Ausgaben und Teamaktivität in einem Dashboard, online oder offline.",
+    "backToGuides": "Zurück zu allen Leitfäden",
+    "byline": "Von der BizTrack Redaktion",
+    "updated": "Aktualisiert",
+    "nextStepHeading": "Probieren Sie es in Ihrem Geschäft",
+    "nextStepBody": "Öffnen Sie BizTrack, um Lager, Verkäufe und Ausgaben zu erfassen und Tagessummen zu sehen.",
+    "relatedGuides": "Verwandte Leitfäden",
+    "adArea": "Werbung",
+    "categories": {
+      "Inventory": "Lager",
+      "Finance": "Finanzen",
+      "Customers": "Kunden",
+      "Team": "Team",
+      "Operations": "Betrieb"
+    }
   }
 }

@@ -1476,5 +1476,41 @@
     "recordsBody": "Registre cada venda e serviço todos os dias para saber o lucro real.",
     "recordsCta": "Registrar uma venda",
     "exploreCta": "Explorar Discover"
+  },
+  "resourcesUi": {
+    "homeAria": "Início BizTrack",
+    "mainNav": "Navegação principal",
+    "features": "Recursos",
+    "pricing": "Preços",
+    "resources": "Conteúdos",
+    "contact": "Fale conosco",
+    "launch": "Abrir app web",
+    "footerDescription": "Ferramentas e guias práticos para gerir estoque, vendas, caixa e equipes num só lugar.",
+    "allGuides": "Todos os guias",
+    "privacy": "Política de privacidade",
+    "androidApp": "App Android",
+    "rights": "Todos os direitos reservados.",
+    "editorial": "Editorial BizTrack",
+    "heading": "Guias para a operação diária",
+    "intro": "Guias práticos sobre estoque, fluxo de caixa, clientes, equipes e trabalho offline. Artigos publicados em inglês.",
+    "filterAria": "Filtrar guias por categoria",
+    "all": "Todos",
+    "readGuide": "Ler guia",
+    "practiceHeading": "Coloque estes guias em prática",
+    "practiceBody": "O BizTrack ajuda a registrar estoque, vendas, despesas e atividade da equipe num só painel, online ou offline.",
+    "backToGuides": "Voltar aos guias",
+    "byline": "Por Editorial BizTrack",
+    "updated": "Atualizado",
+    "nextStepHeading": "Experimente no seu negócio",
+    "nextStepBody": "Abra o BizTrack para registrar estoque, vendas e despesas e ver os totais do dia.",
+    "relatedGuides": "Guias relacionados",
+    "adArea": "Publicidade",
+    "categories": {
+      "Inventory": "Estoque",
+      "Finance": "Finanças",
+      "Customers": "Clientes",
+      "Team": "Equipe",
+      "Operations": "Operações"
+    }
   }
 }

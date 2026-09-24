@@ -1543,5 +1543,41 @@
     "recordsBody": "Rekodi mauzo na huduma kila siku. Kumbukumbu za kila siku zinaonyesha faida halisi.",
     "recordsCta": "Rekodi mauzo",
     "exploreCta": "Tembelea Discover"
+  },
+  "resourcesUi": {
+    "homeAria": "Mwanzo wa BizTrack",
+    "mainNav": "Urambazaji mkuu",
+    "features": "Vipengele",
+    "pricing": "Bei",
+    "resources": "Rasilimali",
+    "contact": "Wasiliana nasi",
+    "launch": "Fungua programu ya wavuti",
+    "footerDescription": "Zana na miongozo ya kusimamia bidhaa, mauzo, pesa na timu mahali pamoja.",
+    "allGuides": "Miongozo yote",
+    "privacy": "Sera ya faragha",
+    "androidApp": "Programu ya Android",
+    "rights": "Haki zote zimehifadhiwa.",
+    "editorial": "Uhariri wa BizTrack",
+    "heading": "Miongozo ya shughuli za kila siku",
+    "intro": "Miongozo rahisi kuhusu bidhaa, mtiririko wa pesa, wateja, timu na kufanya kazi bila mtandao. Makala yamechapishwa kwa Kiingereza.",
+    "filterAria": "Chuja miongozo kwa kundi",
+    "all": "Zote",
+    "readGuide": "Soma mwongozo",
+    "practiceHeading": "Tekeleza miongozo hii",
+    "practiceBody": "BizTrack inakusaidia kurekodi bidhaa, mauzo, matumizi na shughuli za timu kwenye dashibodi moja, mtandaoni au nje ya mtandao.",
+    "backToGuides": "Rudi kwenye miongozo",
+    "byline": "Na Uhariri wa BizTrack",
+    "updated": "Imesasishwa",
+    "nextStepHeading": "Jaribu kwenye biashara yako",
+    "nextStepBody": "Fungua BizTrack kurekodi bidhaa, mauzo na matumizi na kuona jumla za siku.",
+    "relatedGuides": "Miongozo inayohusiana",
+    "adArea": "Tangazo",
+    "categories": {
+      "Inventory": "Bidhaa",
+      "Finance": "Fedha",
+      "Customers": "Wateja",
+      "Team": "Timu",
+      "Operations": "Uendeshaji"
+    }
   }
 }

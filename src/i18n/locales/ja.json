@@ -1476,5 +1476,41 @@
     "recordsBody": "売上とサービスを毎日記録すると本当の利益が見えます。",
     "recordsCta": "売上を記録",
     "exploreCta": "Discover を見る"
+  },
+  "resourcesUi": {
+    "homeAria": "BizTrack ホーム",
+    "mainNav": "メインナビゲーション",
+    "features": "機能",
+    "pricing": "料金",
+    "resources": "リソース",
+    "contact": "お問い合わせ",
+    "launch": "ウェブアプリを起動",
+    "footerDescription": "在庫・販売・現金・チームを一か所で管理するための実用ツールとガイド。",
+    "allGuides": "すべてのガイド",
+    "privacy": "プライバシーポリシー",
+    "androidApp": "Android アプリ",
+    "rights": "無断転載を禁じます。",
+    "editorial": "BizTrack 編集部",
+    "heading": "日々の業務のためのガイド",
+    "intro": "在庫、キャッシュフロー、顧客、チーム、オフライン作業に関する実用ガイド。記事は英語で公開されています。",
+    "filterAria": "カテゴリで絞り込む",
+    "all": "すべて",
+    "readGuide": "ガイドを読む",
+    "practiceHeading": "ガイドを実践する",
+    "practiceBody": "BizTrack は在庫、販売、経費、チームの活動を一つのダッシュボードで記録できます。オンラインでもオフラインでも。",
+    "backToGuides": "ガイド一覧に戻る",
+    "byline": "BizTrack 編集部",
+    "updated": "更新日",
+    "nextStepHeading": "あなたのビジネスで試す",
+    "nextStepBody": "BizTrack を開いて在庫・販売・経費を記録し、日々の合計を確認しましょう。",
+    "relatedGuides": "関連ガイド",
+    "adArea": "広告",
+    "categories": {
+      "Inventory": "在庫",
+      "Finance": "財務",
+      "Customers": "顧客",
+      "Team": "チーム",
+      "Operations": "業務"
+    }
   }
 }

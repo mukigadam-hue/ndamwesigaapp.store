@@ -1476,5 +1476,41 @@
     "recordsBody": "Registra cada venta y servicio a diario para conocer tu ganancia real.",
     "recordsCta": "Registrar una venta",
     "exploreCta": "Explorar Discover"
+  },
+  "resourcesUi": {
+    "homeAria": "Inicio de BizTrack",
+    "mainNav": "Navegación principal",
+    "features": "Funciones",
+    "pricing": "Precios",
+    "resources": "Recursos",
+    "contact": "Contáctenos",
+    "launch": "Abrir la app web",
+    "footerDescription": "Herramientas y guías prácticas para gestionar inventario, ventas, efectivo y equipos en un solo lugar.",
+    "allGuides": "Todas las guías",
+    "privacy": "Política de privacidad",
+    "androidApp": "App de Android",
+    "rights": "Todos los derechos reservados.",
+    "editorial": "Redacción BizTrack",
+    "heading": "Guías para la operación diaria",
+    "intro": "Guías prácticas sobre inventario, flujo de caja, clientes, equipos y trabajo sin conexión. Artículos publicados en inglés.",
+    "filterAria": "Filtrar guías por categoría",
+    "all": "Todas",
+    "readGuide": "Leer guía",
+    "practiceHeading": "Ponga en práctica estas guías",
+    "practiceBody": "BizTrack le ayuda a registrar inventario, ventas, gastos y actividad del equipo en un solo panel, con o sin conexión.",
+    "backToGuides": "Volver a las guías",
+    "byline": "Por la redacción de BizTrack",
+    "updated": "Actualizado",
+    "nextStepHeading": "Pruébelo en su negocio",
+    "nextStepBody": "Abra BizTrack para registrar inventario, ventas y gastos y ver sus totales diarios.",
+    "relatedGuides": "Guías relacionadas",
+    "adArea": "Publicidad",
+    "categories": {
+      "Inventory": "Inventario",
+      "Finance": "Finanzas",
+      "Customers": "Clientes",
+      "Team": "Equipo",
+      "Operations": "Operaciones"
+    }
   }
 }

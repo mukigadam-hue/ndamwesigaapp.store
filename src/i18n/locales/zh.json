@@ -1476,5 +1476,41 @@
     "recordsBody": "每天记录每笔销售和服务，才能看到真实利润。",
     "recordsCta": "记录一笔销售",
     "exploreCta": "浏览 Discover"
+  },
+  "resourcesUi": {
+    "homeAria": "BizTrack 首页",
+    "mainNav": "主导航",
+    "features": "功能",
+    "pricing": "价格",
+    "resources": "资源",
+    "contact": "联系我们",
+    "launch": "打开网页版",
+    "footerDescription": "在一个地方管理库存、销售、现金和团队的实用工具与指南。",
+    "allGuides": "全部指南",
+    "privacy": "隐私政策",
+    "androidApp": "安卓应用",
+    "rights": "版权所有。",
+    "editorial": "BizTrack 编辑部",
+    "heading": "日常经营指南",
+    "intro": "关于库存、现金流、客户、团队和离线工作的实用指南。文章以英文发布。",
+    "filterAria": "按类别筛选指南",
+    "all": "全部",
+    "readGuide": "阅读指南",
+    "practiceHeading": "将指南付诸实践",
+    "practiceBody": "BizTrack 帮助您在一个仪表板中记录库存、销售、支出和团队活动，在线或离线均可。",
+    "backToGuides": "返回全部指南",
+    "byline": "BizTrack 编辑部撰写",
+    "updated": "更新于",
+    "nextStepHeading": "在您的业务中试用",
+    "nextStepBody": "打开 BizTrack 记录库存、销售和支出，并查看每日汇总。",
+    "relatedGuides": "相关指南",
+    "adArea": "广告",
+    "categories": {
+      "Inventory": "库存",
+      "Finance": "财务",
+      "Customers": "客户",
+      "Team": "团队",
+      "Operations": "运营"
+    }
   }
 }
