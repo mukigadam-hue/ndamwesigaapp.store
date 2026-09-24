@@ -28,17 +28,6 @@ function useAdSenseScript() {
   }, []);
 }
 
-function _Unused({ label }: { label: string }) {
-  return (
-    <div
-      aria-hidden="true"
-      className="mx-auto my-12 flex min-h-[120px] w-full max-w-3xl items-center justify-center rounded-xl border-2 border-dashed border-muted-foreground/30 bg-muted/50 text-sm font-medium text-muted-foreground"
-    >
-      {label}
-    </div>
-  );
-}
-
 const features = [
   {
     icon: ShoppingCart,
