@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
+import { articles } from "@/content/articles";
 import { ArrowRight, ShoppingCart, Users, UserCog, Compass, Smartphone, MonitorSmartphone } from "lucide-react";
 
 const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.despia.biztrack";
@@ -27,7 +28,7 @@ function useAdSenseScript() {
   }, []);
 }
 
-function AdPlaceholder({ label }: { label: string }) {
+function _Unused({ label }: { label: string }) {
   return (
     <div
       aria-hidden="true"
@@ -116,7 +117,6 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <AdPlaceholder label="Ad Placement Block Area" />
 
       {/* Features */}
       <section id="features" className="mx-auto max-w-6xl px-4 py-16">
@@ -135,7 +135,6 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <AdPlaceholder label="Ad Placement Block Area" />
 
       {/* Web vs Mobile */}
       <section id="resources" className="bg-muted/60">
@@ -160,6 +159,26 @@ export default function LandingPage() {
         </div>
       </section>
 
+      {/* Latest guides */}
+      <section className="mx-auto max-w-6xl px-4 py-16">
+        <div className="flex flex-wrap items-end justify-between gap-4">
+          <h2 className="text-2xl font-bold md:text-3xl">Latest Business Guides</h2>
+          <Link to="/resources" className="inline-flex min-h-11 items-center gap-2 font-semibold text-primary">View all guides <ArrowRight className="h-4 w-4" /></Link>
+        </div>
+        <div className="mt-8 grid gap-6 md:grid-cols-3">
+          {articles.slice(0, 3).map((a) => (
+            <Link key={a.slug} to={`/resources/${a.slug}`} className="group overflow-hidden rounded-xl border border-border bg-card">
+              <img src={a.image} alt={a.imageAlt} loading="lazy" className="aspect-[5/3] w-full object-cover" />
+              <div className="p-5">
+                <span className="text-sm font-bold text-primary">{a.category} · {a.readTime}</span>
+                <h3 className="mt-2 text-lg font-bold leading-snug group-hover:text-primary">{a.title}</h3>
+                <p className="mt-2 text-sm leading-6 text-muted-foreground">{a.description}</p>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </section>
+
       {/* Pricing */}
       <section id="pricing" className="mx-auto max-w-4xl px-4 py-16 text-center">
         <h2 className="text-2xl font-bold md:text-3xl">Simple Pricing</h2>
@@ -174,7 +193,6 @@ export default function LandingPage() {
         </Link>
       </section>
 
-      <AdPlaceholder label="Ad Placement Block Area" />
 
       {/* Contact */}
       <section id="contact" className="mx-auto max-w-4xl px-4 pb-16 text-center">

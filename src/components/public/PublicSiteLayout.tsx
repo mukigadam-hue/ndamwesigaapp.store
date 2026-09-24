@@ -56,11 +56,7 @@ export function PublicSiteLayout({ children }: { children: ReactNode }) {
   return <div className="min-h-screen bg-background text-foreground"><PublicHeader />{children}<PublicFooter /></div>;
 }
 
+// Real ad units are placed here by AdSense after approval; nothing visible until then.
 export function AdPlacement() {
-  const { t } = useTranslation();
-  return (
-    <aside aria-label={t("resourcesUi.adArea")} className="my-12 flex min-h-28 items-center justify-center border border-dashed border-border bg-muted/40 px-4 text-center text-xs font-semibold uppercase tracking-wider text-muted-foreground">
-      {t("resourcesUi.adArea")}
-    </aside>
-  );
+  return null;
 }
