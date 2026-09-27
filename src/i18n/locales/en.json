@@ -436,7 +436,7 @@
       "purchasesIncludesOrders": "Includes purchases + orders sent to suppliers",
       "revenueIncludesOrders": "Includes sales, services + customer orders received",
       "drawerCashTitle": "Cash that should be in the drawer now",
-      "drawerCashFormula": "Cash collected − expenses − purchases + debts repaid",
+      "drawerCashFormula": "Cash collected + debts repaid − expenses",
       "drawerCashHint": "Count the money with your worker and compare it with this figure.",
       "todaysDebtsTitle": "Total debts created today",
       "todaysDebtsFormula": "Unpaid balances from today's sales and services",

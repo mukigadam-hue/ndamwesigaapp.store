@@ -429,7 +429,7 @@
       "purchasesIncludesOrders": "包括采购 + 发送给供应商的订单",
       "revenueIncludesOrders": "包括销售、服务 + 收到的客户订单",
       "drawerCashTitle": "此刻收银抽屉应有的现金",
-      "drawerCashFormula": "已收现金 − 支出 − 采购 + 已还欠款",
+      "drawerCashFormula": "已收现金 + 已还欠款 − 支出",
       "drawerCashHint": "与员工一起数钱，并与此金额核对。",
       "todaysDebtsTitle": "今日产生的欠款总额",
       "todaysDebtsFormula": "今日销售与服务的未付余额",

@@ -429,7 +429,7 @@
       "purchasesIncludesOrders": "Einschließlich Einkäufe + an Lieferanten gesendete Bestellungen",
       "revenueIncludesOrders": "Einschließlich Verkäufe, Dienstleistungen + erhaltene Kundenbestellungen",
       "drawerCashTitle": "Bargeld, das jetzt in der Kasse sein sollte",
-      "drawerCashFormula": "Eingenommenes Geld − Ausgaben − Einkäufe + zurückgezahlte Schulden",
+      "drawerCashFormula": "Eingenommenes Geld + zurückgezahlte Schulden − Ausgaben",
       "drawerCashHint": "Zählen Sie das Geld mit Ihrem Mitarbeiter und vergleichen Sie es mit diesem Betrag.",
       "todaysDebtsTitle": "Heute entstandene Schulden insgesamt",
       "todaysDebtsFormula": "Offene Beträge aus heutigen Verkäufen und Leistungen",

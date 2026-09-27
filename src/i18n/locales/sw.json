@@ -429,7 +429,7 @@
       "purchasesIncludesOrders": "Inajumuisha manunuzi + maagizo yaliyotumwa kwa wasambazaji",
       "revenueIncludesOrders": "Inajumuisha mauzo, huduma + maagizo ya wateja yaliyopokelewa",
       "drawerCashTitle": "Fedha inayotakiwa kuwa kwenye droo sasa",
-      "drawerCashFormula": "Fedha iliyopokelewa − matumizi − manunuzi + madeni yaliyorejeshwa",
+      "drawerCashFormula": "Fedha iliyopokelewa + madeni yaliyorejeshwa − matumizi",
       "drawerCashHint": "Hesabu fedha na mfanyakazi wako na ulinganishe na kiasi hiki.",
       "todaysDebtsTitle": "Madeni yote yaliyotokea leo",
       "todaysDebtsFormula": "Salio lisilolipwa la mauzo na huduma za leo",

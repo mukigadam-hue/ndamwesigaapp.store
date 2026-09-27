@@ -516,8 +516,8 @@ export default function SettingsPage() {
   const todayNetPosition = todayTotalCashCollected - todayExpenseTotal - todayPurchaseTotal;
 
   // ====== CASH THAT SHOULD BE IN THE DRAWER TODAY ======
-  // Cash collected today (incl. part-payments) + debts repaid today − expenses − purchases paid out
-  const todayDrawerCash = todayTotalCashCollected + todayRepaidDebtsTotal - todayExpenseTotal - todayPurchaseTotal;
+  // Cash collected today (incl. part-payments) + debts repaid today − expenses (purchases excluded: may be funded from earlier income)
+  const todayDrawerCash = todayTotalCashCollected + todayRepaidDebtsTotal - todayExpenseTotal;
 
   // ====== NEW DEBTS CREATED TODAY (unpaid balances on today's sales & services) ======
   const todaySalesDebtTotal = todaySales.reduce((sum, s) => sum + Math.max(0, Number(s.balance) || 0), 0);
@@ -1089,8 +1089,6 @@ export default function SettingsPage() {
               <span className="text-right font-semibold tabular-nums">{fmt(todayRepaidDebtsTotal)}</span>
               <span className="text-muted-foreground">− {t('settings.financial.expenses')}</span>
               <span className="text-right font-semibold tabular-nums text-destructive">{fmt(todayExpenseTotal)}</span>
-              <span className="text-muted-foreground">− {t('settings.financial.purchases')}</span>
-              <span className="text-right font-semibold tabular-nums text-destructive">{fmt(todayPurchaseTotal)}</span>
             </div>
             <p className="mt-2 text-[11px] font-medium text-muted-foreground">{t('settings.financial.drawerCashHint')}</p>
           </div>

@@ -429,7 +429,7 @@
       "purchasesIncludesOrders": "Inclui compras + pedidos enviados a fornecedores",
       "revenueIncludesOrders": "Inclui vendas, serviços + pedidos de clientes recebidos",
       "drawerCashTitle": "Dinheiro que deve estar na caixa agora",
-      "drawerCashFormula": "Dinheiro recebido − despesas − compras + dívidas pagas",
+      "drawerCashFormula": "Dinheiro recebido + dívidas pagas − despesas",
       "drawerCashHint": "Conte o dinheiro com o seu funcionário e compare com este valor.",
       "todaysDebtsTitle": "Total de dívidas criadas hoje",
       "todaysDebtsFormula": "Saldos não pagos das vendas e serviços de hoje",

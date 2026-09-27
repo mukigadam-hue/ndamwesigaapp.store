@@ -429,7 +429,7 @@
       "purchasesIncludesOrders": "Inclut les achats + commandes envoyées aux fournisseurs",
       "revenueIncludesOrders": "Inclut les ventes, services + commandes clients reçues",
       "drawerCashTitle": "Argent qui doit être dans la caisse maintenant",
-      "drawerCashFormula": "Encaissements − dépenses − achats + dettes remboursées",
+      "drawerCashFormula": "Encaissements + dettes remboursées − dépenses",
       "drawerCashHint": "Comptez l'argent avec votre employé et comparez avec ce montant.",
       "todaysDebtsTitle": "Total des dettes créées aujourd'hui",
       "todaysDebtsFormula": "Soldes impayés des ventes et services du jour",
